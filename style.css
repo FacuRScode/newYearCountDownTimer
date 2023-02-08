@@ -1,0 +1,46 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+* {
+    box-sizing: border-box; /*Se incluyen los bordes y rellenos en el calculo del ancho y largo, evita prolemas*/
+}
+
+body {
+    background-image: url(./snow-5920x3947.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh; /*Esta propiedad es útil para garantizar una altura mínima para un elemento y para asegurarse de que no queden espacios en blanco en la página.*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -10rem;
+    margin-top: 5rem;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
